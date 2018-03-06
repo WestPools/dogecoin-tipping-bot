@@ -14,7 +14,7 @@ function balance (message, dogecoinNode) {
     }
 
     rateDogeEur().then((rate) => {
-      message.channel.send(BALANCE_TEXT + (balance).toFixed(2) + ' DOGE ( ' + (balance * rate).toFixed(2) + ' EUR )')
+      message.channel.send(BALANCE_TEXT + (balance).toFixed(2) + ' ITNS ( ' + (balance * rate).toFixed(2) + ' EUR )')
     }).catch((error) => {
       message.channel.send(error)
     })
