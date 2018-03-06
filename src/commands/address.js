@@ -1,6 +1,6 @@
 const { OOPS_TEXT } = require('../messages')
 
-const ADDRESS_TEXT = 'You can send dogecoin to this address : '
+const ADDRESS_TEXT = 'You can send intensecoin to this address : '
 
 function address (message, dogecoinNode) {
   var account = message.author.tag.replace('#', '')
