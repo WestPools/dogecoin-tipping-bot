@@ -1,7 +1,7 @@
 {
   "name": "intense-tipping-bot",
   "version": "0.0.1",
-  "description": "Intense tipping bot",
+  "description": "IntenseCoin tipping bot",
   "main": "src/main.js",
   "private": true,
   "scripts": {
@@ -21,6 +21,8 @@
     "bitcoinjs-lib": "2.3.0",
     "discord.js": "^11.2.1",
     "dotenv": "^4.0.0",
+    "jsonfile": "^4.0.0",
+    "cryptonote-util": "^0.0.1"
     "node-dogecoin": "^0.3.9",
     "request": "^2.81.0"
   },
