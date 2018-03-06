@@ -1,6 +1,6 @@
 const { GIPHY_KEY } = require('../settings')
 
-const HELP_TEXT = '```Wow. DogeCoin to moon. \n \
+const HELP_TEXT = '```Wow. Intensecoin to moon. \n \
 Command list : \n \
   - **help** : Get help ! \n \
   - **tip** : Tip someone some dogecoin \n \
